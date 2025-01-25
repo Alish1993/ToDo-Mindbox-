@@ -1,0 +1,41 @@
+.header {  
+    display: flex;  
+    align-items: center;  
+    flex-wrap: wrap;  
+    margin-bottom: 20px;  
+}  
+
+.header__button {  
+    background-color: #007bff;  
+    color: white;  
+    border: none;  
+    border-radius: 5px;  
+    padding: 5px 10px;  
+    margin: 0 5px;  
+    cursor: pointer;  
+}  
+
+.header__button:hover {  
+    background-color: #0056b3;  
+}  
+
+.header__input {  
+    border: 1px solid #ddd;  
+    border-radius: 5px;  
+    padding: 10px;  
+    flex-grow: 1;  
+    margin: 0 5px;  
+    font-size: 16px;  
+}  
+
+.navigation {  
+    display: flex;  
+    justify-content: space-between;  
+    margin-top: 10px;  
+}  
+
+.countAll,  
+.countCompleted {  
+    margin-right: 10px;  
+    font-weight: bold;  
+}
